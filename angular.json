@@ -24,7 +24,33 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "background.png",
+                "input": "src/app/home/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "angular.jpg",
+                "input": "src/app/course/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "nodejs.jpg",
+                "input": "src/app/course/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "reactjs.jpg",
+                "input": "src/app/course/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "typescript.jpg",
+                "input": "src/app/course/assets",
+                "output": "assets"
+              }
+
             ],
             "styles": [
               "src/styles.css"
